@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0.04in solid black;
+    width: 9.83in;
+    margin: 0 auto;
+}
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+.team-button {
+        background-color: #7577eb;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+    .team-button:hover {
+        background-color: #4b4db9;
+    }
+    .team-member {
+        display: inline-block; 
+        vertical-align: top; 
+        width: 200px; 
+        margin: 0 10px; 
+    }
+    .team-member p {
+        margin-top: 5px;
+    }
+    .p1, .p2, .p3 {
+        text-align: center;
+    }
+    .founder-ceo, .team-lead, .software-engineer, .sales-officer, .marketing-officer {
+    color: rgb(165, 50, 201); 
+    }
